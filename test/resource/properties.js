@@ -1,5 +1,5 @@
 const properties = {
-    serverName: "http://dummy.restapiexample.com"
+    serverName: "https://jsonplaceholder.typicode.com"
 }
 
 module.exports = properties;
