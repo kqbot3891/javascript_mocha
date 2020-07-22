@@ -22,8 +22,8 @@ describe('Employees', function() {
     it('/GET Employee 2 - should', function (done) {
         proxy.employee2.getEmployee()
             .end((err, res) => {
-                res.should.have.status(200);
-                res.body.should.have.property('status').is.equal("success");
+                expect(res).to.have.status(200);
+                expect(res.body).to.have.property('status').is.equal("success");
                 done();
             })
     })
