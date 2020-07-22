@@ -1,5 +1,7 @@
+let properties = require("../resource/properties");
+
 let chai = require('chai');
-let server = 'http://dummy.restapiexample.com';
+let server = properties.serverName;
 
 //Controller
 class Employee1 {

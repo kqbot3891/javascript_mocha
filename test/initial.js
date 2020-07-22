@@ -1,9 +1,9 @@
-var chai = require('chai');
-var chaiHttp = require('chai-http');
-var chaiJsonEqual = require('chai-json-equal');
+let chai = require('chai');
+let chaiHttp = require('chai-http');
+let chaiJsonEqual = require('chai-json-equal');
 let should = chai.should();
 let expect = chai.expect;
-var proxy = require('./proxy.js');
+let proxy = require('./proxy/proxy.js');
 
 chai.use(chaiHttp);
 chai.use(chaiJsonEqual);
